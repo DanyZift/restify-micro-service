@@ -15,6 +15,6 @@ gulp.task('cover', function () {
 });
 
 gulp.task('test', function () {
-    return gulp.src('test/api/controllers/*.js', {read: false})
+    return gulp.src('test/api/*/*.js', {read: false})
         .pipe(mocha({reporter: 'spec', timeout: 10000}));
 });
