@@ -1,0 +1,35 @@
+{
+  "name": "restify-micro-service",
+  "version": "1.0.0",
+  "description": "Micro-service setup with restify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanyZift/restify-micro-service.git"
+  },
+  "keywords": [
+    "node",
+    "micro",
+    "service",
+    "restify"
+  ],
+  "author": "Andy Fitzgerald",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanyZift/restify-micro-service/issues"
+  },
+  "homepage": "https://github.com/DanyZift/restify-micro-service",
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^5.2.0",
+    "supertest": "^0.15.0"
+  },
+  "dependencies": {
+    "restify": "^3.0.3",
+    "swagger": "^0.6.3",
+    "swagger-restify-mw": "0.0.3"
+  }
+}
